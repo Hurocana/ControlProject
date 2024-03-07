@@ -1,0 +1,31 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "menu-game": "bin/menu-game.js",
+    "brain-scm": "bin/brain-scm.js",
+    "brain-proggression": "bin/brain-proggression.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Komplexee/newproj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Komplexee/newproj/issues"
+  },
+  "homepage": "https://github.com/Komplexee/newproj#readme",
+  "dependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "readline-sync": "^1.4.10"
+  }
+}
